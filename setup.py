@@ -9,6 +9,7 @@ setup(
     python_requires='>=3.6',
     packages=['packagename'],
     install_requires=['pytest'],
+    entry_points={'console_scripts':['packagename=packagename.packagename:main']},
     classifiers=[
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: MIT License',
